@@ -23,6 +23,18 @@ To create a simple, deployable application where users can input medical paramet
 - **Streamlit Frontend**:
   - User-friendly form to enter patient details
   - Real-time prediction results
+ 
+🧠 Train the Model
+
+python training/train_model.py
+
+⚙️ Start the FastAPI Server
+
+uvicorn app.main:app --reload
+
+🌐 Start the Streamlit Frontend
+
+streamlit run streamlit_app/frontend.py
 
 - **Dockerized**:
   - Run locally using `docker-compose`
